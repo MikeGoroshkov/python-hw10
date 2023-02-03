@@ -1,0 +1,1316 @@
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = d, time: Fri Feb  3 11:46:10 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 43, in calc_handler
+    await bot.send_message(message.from_user.id, parse_mode='HTML', reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 35+5, time: Fri Feb  3 11:46:47 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 43, in calc_handler
+    await bot.send_message(message.from_user.id, parse_mode='HTML', reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fh, time: Fri Feb  3 11:48:28 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:48:31 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:49:04 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:49:16 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:49:20 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc 35+5, time: Fri Feb  3 11:49:29 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc 35+5, time: Fri Feb  3 11:49:58 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Bot.send_message() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message(message.from_user.id, reply_markup=kb_help)
+TypeError: Bot.send_message() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:51:51 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'kb' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message("Посчитаем", reply_markup=kb.kb_help)
+NameError: name 'kb' is not defined
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:51:56 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'kb' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message("Посчитаем", reply_markup=kb.kb_help)
+NameError: name 'kb' is not defined
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:52:04 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'kb' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    await bot.send_message("Посчитаем", reply_markup=kb.kb_help)
+NameError: name 'kb' is not defined
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:52:44 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 0, 0, '', 0, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 47, in calc_handler
+    exp = eval(exp.replace("^", "**"))
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:53:48 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 0, 0, '', 0, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    exp = eval(exp.replace("^", "**"))
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 11:53:54 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 0, 0, '', 0, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 45, in calc_handler
+    exp = eval(exp.replace("^", "**"))
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 11:54:45 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 43, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 11:54:47 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 43, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 11:54:51 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 43, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:04:17 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:04:18 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 3, time: Fri Feb  3 12:04:19 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /calc, time: Fri Feb  3 12:04:46 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:07:18 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:07:22 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:10:03 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("TelegramObject.to_python() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 48, in help_handler
+    await message.answer("Калькулятор сброшен", reply_markup=ReplyKeyboardRemove)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\types\message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\bot\bot.py", line 336, in send_message
+    reply_markup = prepare_arg(reply_markup)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 56, in prepare_arg
+    return json.dumps(_normalize(value))
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 42, in _normalize
+    return obj.to_python()
+TypeError: TelegramObject.to_python() missing 1 required positional argument: 'self'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:10:05 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("TelegramObject.to_python() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 48, in help_handler
+    await message.answer("Калькулятор сброшен", reply_markup=ReplyKeyboardRemove)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\types\message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\bot\bot.py", line 336, in send_message
+    reply_markup = prepare_arg(reply_markup)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 56, in prepare_arg
+    return json.dumps(_normalize(value))
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 42, in _normalize
+    return obj.to_python()
+TypeError: TelegramObject.to_python() missing 1 required positional argument: 'self'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:10:07 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("TelegramObject.to_python() missing 1 required positional argument: 'self'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 48, in help_handler
+    await message.answer("Калькулятор сброшен", reply_markup=ReplyKeyboardRemove)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\types\message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\bot\bot.py", line 336, in send_message
+    reply_markup = prepare_arg(reply_markup)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 56, in prepare_arg
+    return json.dumps(_normalize(value))
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\utils\payload.py", line 42, in _normalize
+    return obj.to_python()
+TypeError: TelegramObject.to_python() missing 1 required positional argument: 'self'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:12:41 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:13:12 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = п, time: Fri Feb  3 12:13:20 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = гщгш, time: Fri Feb  3 12:13:22 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:13:32 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = пр, time: Fri Feb  3 12:13:54 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 54, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:15:36 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:15:36 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:15:40 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 45, time: Fri Feb  3 12:15:42 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 45, time: Fri Feb  3 12:15:47 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 45, time: Fri Feb  3 12:16:51 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:16:52 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:16:56 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 55, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:19:03 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 56, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:19:05 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 56, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgkgu, time: Fri Feb  3 12:19:13 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 56, in calc_handler
+    await message.answer(reply_markup=kb_help)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgjh, time: Fri Feb  3 12:20:59 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("Message.answer() missing 1 required positional argument: 'text'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 56, in calc_handler
+    log(message)
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = gh, time: Fri Feb  3 12:24:26 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'gh' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 59, in calc_handler
+    expression = eval(expression.replace("^", "**"))
+  File "<string>", line 1, in <module>
+NameError: name 'gh' is not defined
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:28:51 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = gh, time: Fri Feb  3 12:28:55 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:29:06 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:33:17 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fdj, time: Fri Feb  3 12:33:21 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:35:05 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = gh, time: Fri Feb  3 12:35:12 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:35:25 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:35:45 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 6, time: Fri Feb  3 12:35:46 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:35:53 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:35:54 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = *, time: Fri Feb  3 12:35:58 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:35:59 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:36:36 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:36:49 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fg, time: Fri Feb  3 12:36:52 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:36:57 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:37:26 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:37:33 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:37:35 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:37:47 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:37:48 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:39:46 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = gh, time: Fri Feb  3 12:39:50 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:39:52 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:39:57 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:39:59 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +=: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 72, in calc_handler
+    expression += message.text
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:41:51 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgh, time: Fri Feb  3 12:41:53 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:41:56 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:41:58 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:42:00 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:42:30 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 1, time: Fri Feb  3 12:42:31 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:42:45 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 0, time: Fri Feb  3 12:42:51 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = ., time: Fri Feb  3 12:42:52 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:42:53 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers', ('<string>', 1, 7, '5+5-1+05', 1, 8))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 74, in calc_handler
+  File "<string>", line 1
+    5+5-1+05
+          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:43:13 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 8, time: Fri Feb  3 12:43:15 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-63' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers', ('<string>', 1, 7, '5+5-1+05-8', 1, 8))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 74, in calc_handler
+  File "<string>", line 1
+    5+5-1+05-8
+          ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:46:08 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgjh, time: Fri Feb  3 12:46:11 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:46:13 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:46:15 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:46:16 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:46:24 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:46:27 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = ^, time: Fri Feb  3 12:46:38 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 3, time: Fri Feb  3 12:46:40 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:47:35 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 3, time: Fri Feb  3 12:47:36 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:47:38 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:47:49 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:47:50 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = ^, time: Fri Feb  3 12:48:03 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:48:04 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:49:50 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:51:11 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = dfg, time: Fri Feb  3 12:51:14 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:51:19 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgh, time: Fri Feb  3 12:51:21 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:51:51 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:51:56 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:51:57 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:52:03 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:52:07 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /, time: Fri Feb  3 12:52:14 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:52:16 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:52:22 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:52:24 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:52:26 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-70' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'j2' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1, in <module>
+NameError: name 'j2' is not defined
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:52:31 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:52:32 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-78' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'j2' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1, in <module>
+NameError: name 'j2' is not defined
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:52:38 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = g, time: Fri Feb  3 12:52:43 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 8, time: Fri Feb  3 12:52:45 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:52:47 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:52:50 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:52:51 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:53:25 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = gh, time: Fri Feb  3 12:53:28 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:53:32 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:53:34 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:53:35 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:53:53 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:53:55 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:53:59 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:54:00 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:54:03 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:54:14 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:54:16 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: my_first_bot [@itsok_my_first_bot]
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:55:07 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = fgh, time: Fri Feb  3 12:55:09 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 6, time: Fri Feb  3 12:55:15 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = +, time: Fri Feb  3 12:55:17 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 0, '6+', 1, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1
+    6+
+SyntaxError: invalid syntax
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 5, time: Fri Feb  3 12:55:19 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = -, time: Fri Feb  3 12:55:26 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 0, '6+5-', 1, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1
+    6+5-
+SyntaxError: invalid syntax
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 3, time: Fri Feb  3 12:55:27 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = j, time: Fri Feb  3 12:55:30 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = *, time: Fri Feb  3 12:55:45 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 0, '6+5-3j*', 1, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1
+    6+5-3j*
+SyntaxError: invalid syntax
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 2, time: Fri Feb  3 12:55:46 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = ^, time: Fri Feb  3 12:55:50 2023
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-61' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 0, '6+5-3j*2**', 1, 0))>
+Traceback (most recent call last):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\MC\PycharmProjects\tele_bot_HW10\main.py", line 78, in calc_handler
+    exp = eval(expression.replace("^", "**"))
+  File "<string>", line 1
+    6+5-3j*2**
+SyntaxError: invalid syntax
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = 4, time: Fri Feb  3 12:55:51 2023
+INFO:root:user_id=278033153, Михаил Горошков, Mesage = /reset, time: Fri Feb  3 12:55:58 2023
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
